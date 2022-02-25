@@ -19,7 +19,7 @@ class ArgiSpider(scrapy.Spider):
         imagem = response.css('#galeriacontent img ::attr(src)').get()
         titulo = response.css('.title ::text').get()
         descricao = response.css('#content p ::text').get()
-        self.produtos.append([imagem,titulo,descricao])
+        self.produtos.append([titulo,imagem,descricao])
         print(self.links)
         if response.url == 'http://www.argi.com.br/produtos/produtos-especiais/5':
             yield {'Arqgi': self.produtos}
