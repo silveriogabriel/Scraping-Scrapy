@@ -3,7 +3,8 @@ Projeto desenvolvido em python para scrapy de varias paginas e printar alguns da
 
 Metodo de usar
 
-1 - Rode o comando "pip install requests" \n
+1 - Rode o comando "pip install requests"
+
 2 - Rode o main.py
 
 Seja feliz :)
